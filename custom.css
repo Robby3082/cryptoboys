@@ -346,7 +346,7 @@ mark{
 ================================================== */
 
 #menu-wrap{
-    position: fixed; 
+    position: relative; 
 	width:100%;
 	z-index:5000;
 	margin:0 auto;
