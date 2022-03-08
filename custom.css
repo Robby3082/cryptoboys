@@ -344,7 +344,10 @@ mark{
 
 /* #Navigation
 ================================================== */
-
+.navbar-toggler{
+	background-color: white!important;
+	border-color: white!important
+}
 #menu-wrap{
     position: relative; 
 	width:100%;
@@ -517,7 +520,7 @@ mark{
 	height: 2px;
 	width: 30px;
 	display: block;
-	background-color: #000;
+	background-color: #fff;
 	margin-bottom: 7px;
 	-webkit-transition: background-color .5s ease, -webkit-transform .2s ease;
 	transition: background-color .5s ease, -webkit-transform .2s ease;
@@ -543,12 +546,12 @@ mark{
 	width: 30px;
 }
 .navbar-toggler[aria-expanded="true"] .menu-icon__line {
-	background-color: #000;
+	background-color: #fff;
 	-webkit-transform: translate(0px, 0px) rotate(-45deg);
           transform: translate(0px, 0px) rotate(-45deg);
 }
 .menu-back.dark .navbar-toggler[aria-expanded="true"] .menu-icon__line{
-	background-color: #fff;
+	background-color: #fff!important;
 }
 .navbar-toggler[aria-expanded="true"] .menu-icon__line-left {
 	width: 15px;
